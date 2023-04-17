@@ -25,3 +25,5 @@ Console.ReadKey();
 klasanadrzedna klasa = new klasanadrzedna();
 klasa.wyświetl();
 Console.ReadKey();
+
+//
