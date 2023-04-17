@@ -1,27 +1,37 @@
 ﻿using obiektykop;
 
-odkurzacz odkurzacz = new odkurzacz();
-odkurzacz.wyświetl();
+Odkurzacz Odkurzacz = new Odkurzacz();
+Odkurzacz.wyświetl();
 Console.ReadKey();
-odkurzacz.ustaw("Delux",1500);      
-odkurzacz.wyświetl();
+
+Odkurzacz.ustaw("Delux",1500);      
+Odkurzacz.wyświetl();
+
 Console.ReadKey();
-odkurzacz odkurzacz1 = new odkurzacz(odkurzacz);
-odkurzacz1.wyświetl();
+Odkurzacz Odkurzacz1 = new Odkurzacz(Odkurzacz);
+
+Odkurzacz1.wyświetl();
 Console.ReadKey();
+
 telewizor telewizor = new telewizor();
+
 telewizor.wyświetl2();   
 Console.ReadKey();
+
 telewizor.ustaw1("Samsung",50);
+
 telewizor telewizor1 = new telewizor(telewizor);
 telewizor1.wyświetl2();
 Console.ReadKey();
-odkurzacz.PokazNumer();
+Odkurzacz.PokazNumer();
 Console.ReadKey();
-odkurzacz.PokazLicznik();
+Odkurzacz.printCounter();
 Console.ReadKey();
 telewizor.wyswietlnr();
 Console.ReadKey();
+
 klasanadrzedna klasa = new klasanadrzedna();
 klasa.wyświetl();
 Console.ReadKey();
+
+//

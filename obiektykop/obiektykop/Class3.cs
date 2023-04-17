@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace obiektykop
 {
-    public class klasanadrzedna : odkurzacz
+    public class klasanadrzedna : Odkurzacz
     {
-        private int  b;
+        private int  b; // nie mozesz przeciazac po polach, tylko po metodach, dlatego to nie dziala
         public void wyświetl2323()
         {
             Console.WriteLine("Moc przeniesiona : " + b);
